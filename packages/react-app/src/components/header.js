@@ -46,7 +46,6 @@ export default function (props) {
     return (
         <HeaderNav>
             <NCLogo theme={theme}/>
-            <span>next period: <Period>{getCurrentPeriod()}</Period></span>
             <NavLink href="/new/worker">New Stake</NavLink>
             <NavLink href="/manage">Manage</NavLink>
             <NavLink href="https://www.nucypher.com/network">Learn</NavLink>
